@@ -4,3 +4,75 @@
     box-sizing: border-box;
 }
 
+/* HEADER */
+
+header{
+    width: 80vw;
+    height: 15vh;
+    margin: 2vh 10vw 2vh 10vw;
+    background-color: rgba(209, 89, 169, 0.678);
+}
+
+/* HEADER */
+
+/* MAIN */
+
+main{
+    width: 80vw;
+    margin: 4vh 10vw 2vh 10vw;
+}
+
+.bg-yellow{
+    height: 80vh;
+    background-color: rgb(235, 235, 137);
+    
+}
+
+.bg-blue{
+    height: 80vh;
+    background-color: rgb(101, 148, 209);
+    margin: 4vh 0 0 0;
+}
+
+/* MAIN */
+
+/* UTILITY */
+
+.column-light-blue{
+    background-color: rgb(103, 235, 235);
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* UTILITY */
+
+.top{
+    width: 80vw;
+    height: 10vh;
+    margin: 0 0 3vh 0;
+}
+.left{
+    width: 20%;
+    height: 64vh;
+    
+    float: left;
+}
+
+.right{
+    width: 20%;
+    height: 64vh;
+    float: right;
+}
+    
+
+.center{
+    width: calc(60% - 3vw);
+    height: 64vh;
+    float: left;
+    margin: 0 1.5vw 0 1.5vw;
+    
+}
