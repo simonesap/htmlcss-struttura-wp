@@ -19,7 +19,7 @@ header{
 
 main{
     width: 80vw;
-    margin: 4vh 10vw 2vh 10vw;
+    margin: 4vh 10vw 0 10vw;
 }
 
 .bg-yellow{
@@ -76,3 +76,14 @@ main{
     margin: 0 1.5vw 0 1.5vw;
     
 }
+
+/* FOOTER */
+
+footer{
+    background-color: rgb(139, 94, 139);
+    width: 80vw;
+    height: 5vh;
+    margin: 2vh 10vw 2vh 10vw;
+}
+
+/* FOOTER */
