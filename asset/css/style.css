@@ -55,10 +55,10 @@ main{
     height: 10vh;
     margin: 0 0 3vh 0;
 }
+
 .left{
     width: 20%;
     height: 64vh;
-    
     float: left;
 }
 
